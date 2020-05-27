@@ -1,0 +1,3 @@
+EPD_WIDTH   = 122
+EPD_HEIGHT  = 250
+
