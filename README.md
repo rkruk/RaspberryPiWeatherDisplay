@@ -11,7 +11,7 @@ Libraries: <br>
 - python demo code (copyright: <a href="https://www.waveshare.com/wiki/2.13inch_e-Paper_HAT">Waveshare</a>);
 <br><br>
 
-Main configuration is in python3 folder:<br><br>
+Main configuration files:<br><br>
 - main.py (main configuration with most important settings);
 - epdconfig.py;
 - ep2in13.py.
