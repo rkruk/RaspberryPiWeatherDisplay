@@ -37,6 +37,6 @@ Files neccesary to read are:<br>
 <br>
 Fonts and Glyphs used:<br>
 - <a href="https://github.com/anthonyfok/fonts-wqy-microhei">wqy-microhei</a> fonts;<br>
-- <a href="https://github.com/ryanoasis/nerd-fonts"></a>nerd fonts<br> weather icons glyph pack.<br>
+- <a href="https://github.com/ryanoasis/nerd-fonts">nerd fonts</a> - a weather icons glyph pack.<br>
 <br>
 Main configuration file with most settings and changes is a <b>main.py<b>.
