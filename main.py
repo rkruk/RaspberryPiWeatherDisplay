@@ -34,8 +34,9 @@ try:
     epd.Clear(0xFF)
     font26 = ImageFont.truetype('/usr/share/fonts/truetype/wqy/wqy-microhei.ttc', 26)
     font32 = ImageFont.truetype('/usr/share/fonts/truetype/wqy/wqy-microhei.ttc', 32)
-    # Change font15 to Noto fonts later (weather icons pack)
-    font15 = ImageFont.truetype('/usr/sgare/fonts/truetype/wqy/wqy-microhei.ttc', 15)
+    # Change font15 -> wqy-microhei to NotoColorEmoji font (weather glyphs from https://github.com/ryanoasis/nerd-fonts).
+    font15 = ImageFont.truetype('/home/pi/.local/share/fonts/NotoColorEmoji.ttf', 15)
+    #font15 = ImageFont.truetype('/usr/share/fonts/truetype/wqy/wqy-microhei.ttc', 15)
     
     time_image = Image.new('1', (epd2in13.EPD_HEIGHT, epd2in13.EPD_WIDTH), 255)
     time_draw = ImageDraw.Draw(time_image)
