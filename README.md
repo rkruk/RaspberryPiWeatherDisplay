@@ -28,7 +28,7 @@ Install Python libraries:<br>
 Download Demo code from <a href="https://github.com/waveshare/e-Paper">Waveshare Github</a> website:<br>
 - git clone https://github.com/waveshare/e-Paper
 <br><br>
-Downloaded code include the install instruction and python3 files.<br>
+Downloaded files include installation instructions, setup.py file and example python3 files.<br>
 Files neccesary to read are:<br>
 - epdconfig.py (copyright: <a href="https://www.waveshare.com/wiki/2.13inch_e-Paper_HAT">Waveshare</a>);<br>
 - ep2in13.py (copyright: <a href="https://www.waveshare.com/wiki/2.13inch_e-Paper_HAT">Waveshare</a>).<br><br>
