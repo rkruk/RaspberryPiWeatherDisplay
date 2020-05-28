@@ -17,8 +17,8 @@ try:
 
     # How to optimise that thing to not ping for weather twice at the same time.
     # hudd1 + hudd2 = hudd something something ... format=?
-    hudd = requests.get('https://wttr.in/Huddersfield?format=%C+%t')
-    hudd2 = requests.get('https://wttr.in/Huddersfield?format=%h+%w+%o')
+    hudd = requests.get('https://wttr.in/Huddersfield?format=%l:+%c+%t+%w&period=60') # +%S (sunrise)
+    hudd2 = requests.get('https://wttr.in/Huddersfield?format=%h+%w+%o&period=60') # +%d (dusk)
 
     # From Demo - leave those for future reference sake:
     # epd.Clear(0xFF)
