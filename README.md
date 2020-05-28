@@ -1,10 +1,10 @@
 ## Raspberry Pi 3 + 2.13" Waveshare Display
 ### E-paper Screen displaying Current Time and Local Weather <br><br>
 
-How to display some nice informations - like current time and local weather - on a Raspberry Pi 3 with e-Paper HAT (Waveshare 2.13" Mono) Display.<br>
+How to display some nice informations - like current time and local weather - on a Raspberry Pi 3 with e-Paper HAT (Waveshare 2.13" B/W Color version) Display.<br>
 <br>
 Parts:<br>
-- Raspberry PI 3 ( Works the same on Pi Zeroor Pi Zero W);<br>
+- Raspberry PI 3 ( Works the same on Pi Zero or Pi Zero W);<br>
 - Waveshare 2.13 e-Paper HAT v.2 (monochrome).<br><br>
 
 Install BCM2835 libraries:<br>
