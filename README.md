@@ -34,5 +34,9 @@ Downloaded files include installation instructions, setup.py file and example py
 Files neccesary to read are:<br>
 - epdconfig.py (copyright: <a href="https://www.waveshare.com/wiki/2.13inch_e-Paper_HAT">Waveshare</a>);<br>
 - ep2in13.py (copyright: <a href="https://www.waveshare.com/wiki/2.13inch_e-Paper_HAT">Waveshare</a>).<br><br>
-
+<br>
+Fonts and Glyphs used:<br>
+- <a href="https://github.com/anthonyfok/fonts-wqy-microhei">wqy-microhei</a> fonts;<br>
+- <a href="https://github.com/ryanoasis/nerd-fonts"></a>nerd fonts<br> weather icons glyph pack.<br>
+<br>
 Main configuration file with most settings and changes is a <b>main.py<b>.
