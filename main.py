@@ -8,8 +8,10 @@ import traceback
 import requests
 
 try:
+    # Initialize the EPD class:
     epd = epd2in13.EPD()
     epd.init(epd.FULL_UPDATE)
+    # Start with a clear (white) background:
     epd.Clear(0xFF)
     
     # Initiate drawing on the image
@@ -31,14 +33,19 @@ try:
     # Full update - image refresh is flickering visibly every 1sec. 
     # Change to full, when you'll figure it out how to change the time interval.
     #epd.init(epd.FULL_UPDATE) # for reference
+    
+    # Clear (white) background (TEST THIS BIT - as it seems there may be no need to do that twice (line:15 and 38)!):
     epd.Clear(0xFF)
+    # Lets define some fonts:
     font26 = ImageFont.truetype('/usr/share/fonts/truetype/wqy/wqy-microhei.ttc', 26)
     font32 = ImageFont.truetype('/usr/share/fonts/truetype/wqy/wqy-microhei.ttc', 32)
     # Change font15 -> wqy-microhei to NotoColorEmoji font (weather glyphs from https://github.com/ryanoasis/nerd-fonts).
     font15 = ImageFont.truetype('/home/pi/.local/share/fonts/NotoColorEmoji.ttf', 15)
     #font15 = ImageFont.truetype('/usr/share/fonts/truetype/wqy/wqy-microhei.ttc', 15)
     
+    # Create here an empty image objects/layers:
     time_image = Image.new('1', (epd2in13.EPD_HEIGHT, epd2in13.EPD_WIDTH), 255)
+    # Render the time section:
     time_draw = ImageDraw.Draw(time_image)
     while (True):
         time_draw.rectangle((10, 10, 120, 50), fill = 255)
@@ -46,7 +53,7 @@ try:
         # show day and day date (left side):
         time_draw.text((10, 10), time.strftime(' %a %d'), font = font26, fill = 0)
         
-        ### Leave that for next update (a nice GUI optimisations):
+        ### Leave that bit from example code for next update in the future (a nice GUI optimisations):
         # draw.line([(100,10),(100,50)], fill = 0,width = 1)
         ###
 
