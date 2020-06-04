@@ -13,21 +13,26 @@ Install BCM2835 libraries:<br>
 Install wiringPi libraries:<br>
 - wiringpi - also follow instructions from <a href="https://www.waveshare.com/wiki/2.13inch_e-Paper_HAT">Waveshare</a> website.<br>
 <br>
-Install Python libraries:<br>
-- sudo apt-get install python3-pip<br>
-- sudo apt-get install python3-pil<br>
-- sudo apt-get install python3-numpy<br>
-- sudo pip3 install RPi.GPIO<br>
-- sudo pip3 install spidev<br>
-- sudo pip3 install time<br>
-- sudo pip3 install traceback<br>
-- sudo pip3 install requests<br>
-- sudo pip3 install image<br>
-- sudo pip3 install imageDraw<br>
-- sudo pip3 install imageFont<br>
+List of required python3 & pip3 dependencies:<br>
+- python3<br>
+- python3-pip<br>
+- python3-pil<br>
+- python3-numpy<br>
+- RPi.GPIO<br>
+- spidev<br>
+- time<br>
+- traceback<br>
+- requests<br>
+- image<br>
+- imageDraw<br>
+- imageFont<br>
 <br>
 <br>
-Download Demo code from <a href="https://github.com/waveshare/e-Paper">Waveshare Github</a> website:<br>
+Install those dependencies:<br>
+<code>sudo apt-get install python3 && <br>sudo apt-get install python3-pip python3-pil python3-numpy && <br>sudo pip3 install RPi.GPIO spidev time traceback requests image imageDraw imageFont</code>
+<br>
+<br>
+Assuming you have <code>git<code> installed you can  now download Demo code from <a href="https://github.com/waveshare/e-Paper">Waveshare Github</a> website:<br>
 - git clone https://github.com/waveshare/e-Paper
 <br><br>
 Downloaded files include installation instructions, setup.py file and example python3 files.<br>
