@@ -45,9 +45,7 @@ Files neccesary to read are:<br>
 - ep2in13.py (copyright: <a href="https://www.waveshare.com/wiki/2.13inch_e-Paper_HAT">Waveshare</a>).<br><br>
 <br>
 Fonts and Glyphs used:<br>
-- <a href="https://github.com/anthonyfok/fonts-wqy-microhei">wqy-microhei</a> fonts;<br>
-  Wqy-Microhei fonts are available in the debian/raspbian repository as a <code>fonts-wqy-microhei</code>.<br>
-  <code>sudo apt-get install fonts-wqy-microhei<code><br>
+- <a href="https://github.com/anthonyfok/fonts-wqy-microhei">wqy-microhei</a> fonts. - Wqy-Microhei fonts are available in the Debian/Raspbian repository as a <code>fonts-wqy-microhei</code> package. Install the wqy-microhei fonts via: <code>sudo apt-get install fonts-wqy-microhei</code> command.<br>
 - <a href="https://github.com/ryanoasis/nerd-fonts">nerd fonts</a> - a weather icons glyph pack.<br>
   Nerd Fonts are available in <a href="https://github.com/ryanoasis/nerd-fonts">this github repository</a>. You have to follow the installation instructions from the Nerd Fonts README.<br>
 <br>
