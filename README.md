@@ -50,5 +50,6 @@ Fonts and Glyphs used:<br>
   Nerd Fonts are available in <a href="https://github.com/ryanoasis/nerd-fonts">this github repository</a>. You have to follow the installation instructions from the Nerd Fonts README.<br>
 <br>
 Main configuration file with most settings and changes is a <b>main.py</b>.<br><br>
-Configuration files are in the: <code>/home/pi</code> directory.<br>
+Configuration files have some example directories used: <code>/home/pi</code> directory.<br>
+Change those at your own discretion.<br>
 <br>
