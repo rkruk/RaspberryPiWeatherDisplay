@@ -46,7 +46,11 @@ Files neccesary to read are:<br>
 <br>
 Fonts and Glyphs used:<br>
 - <a href="https://github.com/anthonyfok/fonts-wqy-microhei">wqy-microhei</a> fonts;<br>
+  Wqy-Microhei fonts are available in the debian/raspbian repository as a <code>fonts-wqy-microhei</code>.<br>
+  <code>sudo apt-get install fonts-wqy-microhei<code><br>
 - <a href="https://github.com/ryanoasis/nerd-fonts">nerd fonts</a> - a weather icons glyph pack.<br>
+  Nerd Fonts are available in <a href="https://github.com/ryanoasis/nerd-fonts">this github repository</a>. You have to follow the installation instructions from the Nerd Fonts README.<br>
 <br>
 Main configuration file with most settings and changes is a <b><span style="color:blue">main.py</span><b>.<br>
+Configuration files are in the: <code>/home/pi</code> directory.<br>
 <br>
