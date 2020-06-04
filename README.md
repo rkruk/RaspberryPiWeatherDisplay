@@ -29,15 +29,15 @@ List of required python3 & pip3 dependencies:<br>
 <br>
 <br>
 Install those dependencies:<br>
-```
+<code>
 sudo apt-get install python3 && <br>sudo apt-get install python3-pip python3-pil python3-numpy && <br>sudo pip3 install RPi.GPIO spidev time traceback requests image imageDraw imageFont
-```
+</code>
 <br>
 <br>
 Assuming you have <code>git</code> installed you can  now download Demo code from <a href="https://github.com/waveshare/e-Paper">Waveshare Github</a> website:<br>
-```
-- git clone https://github.com/waveshare/e-Paper
-```
+<code>
+git clone https://github.com/waveshare/e-Paper
+</code>
 <br><br>
 Downloaded files include installation instructions, setup.py file and example python3 files.<br>
 Files neccesary to read are:<br>
