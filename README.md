@@ -4,9 +4,14 @@
 How to display some nice informations - like current time and local weather - on a Raspberry Pi 3 with e-Paper HAT (Waveshare 2.13" B/W Color version) Display.<br>
 <br>
 Parts:<br>
-- Raspberry PI 3 ( Works the same on Pi Zero or Pi Zero W);<br>
+- Raspberry Pi 3 ( Works the same on Pi 4, Pi Zero or Pi Zero W);<br>
 - Waveshare 2.13 e-Paper HAT v.2 (monochrome).<br><br>
 
+Some assumptions at the beginning:<br>
+- Raspberry Pi is running <a href="https://www.raspberrypi.org/downloads/raspberry-pi-os/">Raspberry Pi OS</a>.<br>
+- Everything is updated to the latest packages.<br>
+- Libraries used are from standart Raspberry Pi OS repositories. Nothing has been added as a source or blob (nothing but firmware but that is a different story and is not in the scope here).<br>
+- Python 3 packages are installed, managed, etc via the pip3 python package installer. Pip3 is installed as you may have guessed from standard Raspberry Pi OS repository (python3-pip package).<br>
 Install BCM2835 libraries:<br>
 - bcm2835 - follow instruction how to install from <a href="https://www.waveshare.com/wiki/2.13inch_e-Paper_HAT">Waveshare</a> website.<br>
 
