@@ -2,7 +2,7 @@
 ### E-paper Screen displaying Current Time and Local Weather <br><br>
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
-[![GitHub issues](https://img.shields.io/github/issues/rkruk/RaspberryPiWeatherDisplay)](https://github.com/rkruk/RaspberryPiWeatherDisplay/issues)
+[![GitHub issues](https://img.shields.io/github/issues/rkruk/RaspberryPiWeatherDisplay)](https://github.com/rkruk/RaspberryPiWeatherDisplay/issues?q=is%3Aopen)
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/rkruk/RaspberryPiWeatherDisplay/)
 
 <br><br>
@@ -61,7 +61,7 @@ Fonts and Glyphs used:<br>
 - <a href="https://github.com/ryanoasis/nerd-fonts">nerd fonts</a> - a weather icons glyph pack.<br>
   Nerd Fonts are available in <a href="https://github.com/ryanoasis/nerd-fonts">this github repository</a>. You have to follow the installation instructions from the Nerd Fonts README.<br>
 <br>
-Main configuration file with most settings and changes is a <b>main.py</b>.<br><br>
-Configuration files have some example directories used: <code>/home/pi</code> directory.<br>
+Main configuration with most settings and changes is a <b>main.py</b> file.<br><br>
+The configuration files have some example directories used like the: <b><code>/home/pi</code></b> directory.<br>
 Change those at your own discretion.<br>
 <br>
