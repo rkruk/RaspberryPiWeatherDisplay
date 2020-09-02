@@ -1,7 +1,14 @@
 ## Raspberry Pi 3 + 2.13" Waveshare Display
 ### E-paper Screen displaying Current Time and Local Weather <br><br>
 
-How to display some nice informations - like current time and local weather - on a Raspberry Pi 3 with e-Paper HAT (Waveshare 2.13" B/W Color version) Display.<br>
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![GitHub issues](https://img.shields.io/github/issues/rkruk/RaspberryPiWeatherDisplay)](https://github.com/rkruk/RaspberryPiWeatherDisplay/issues)
+[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/rkruk/RaspberryPiWeatherDisplay/)
+
+<br><br>
+Little Raspberry PI weather display - made with python.<br> 
+The information it shows on a display: current time and forecast for the local weather.<br>
+Hardware is based on a Raspberry Pi 3 and an e-Paper HAT (Waveshare 2.13" B/W Color version) Display.<br>
 <br>
 Parts:<br>
 - Raspberry Pi 3 ( Works the same on Pi 4, Pi Zero or Pi Zero W);<br>
