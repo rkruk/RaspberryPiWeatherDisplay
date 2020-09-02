@@ -6,6 +6,10 @@
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/rkruk/RaspberryPiWeatherDisplay/)
 
 <br><br>
+<p align="center"><b>CURRENT STATUS: BEWARE! THE CODE DOES NOT WORK YET.</b></p><br>
+<p align="center"><b>It can eat your hamster!</b></p> 
+<br><br>
+
 Little Raspberry PI weather display - made with python.<br> 
 The information it shows on a display: current time and forecast for the local weather.<br>
 Hardware is based on a Raspberry Pi 3 and an e-Paper HAT (Waveshare 2.13" B/W Color version) Display.<br>
