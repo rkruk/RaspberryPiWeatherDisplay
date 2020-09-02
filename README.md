@@ -30,23 +30,32 @@ Install wiringPi libraries:<br>
 - wiringpi - also follow instructions from <a href="https://www.waveshare.com/wiki/2.13inch_e-Paper_HAT">Waveshare</a> website.<br>
 <br>
 List of required python3 & pip3 dependencies:<br>
-- python3<br>
-- python3-pip<br>
-- python3-pil<br>
-- python3-numpy<br>
-- RPi.GPIO<br>
-- spidev<br>
-- time<br>
-- traceback<br>
-- requests<br>
-- image<br>
-- imageDraw<br>
-- imageFont<br>
+<ul>
+  <li>python; </li>
+  <li>python3-pip - it is the package installer for Python; </li>
+  <li>python3-pil - Python Imaging Library is an additional library for the Python, that adds support for opening, manipulating, and saving image file formats; </li>
+  <li>python3-numpy - Numerical Python) is a library consisting of multidimensional array objects and a collection of routines for processing of array; </li>
+  <li>RPi.GPIO - provides a class to control the GPIO on a Raspberry Pi; </li>
+  <li>spidev - contains a python module for interfacing with SPI devices from user space via the spidev linux kernel driver; </li>
+  <li>time - module provides various time-related functions; </li>
+  <li>traceback - module provides a standard interface to extract, format and print stack traces of Python programs; </li>
+  <li>requests - simple HTTP library for Python; </li>
+  <li>image - provides cropping, resizing, thumbnailing, overlays, tint and mask for images; </li>
+  <li>imageDraw - provides simple 2D graphics for Image objects; </li>
+  <li>imageFont - defines a class with the same name. Instances of this class store bitmap fonts, and are used with the PIL.ImageDraw.Draw.text() method; </li>
+</ul>
 <br>
 <br>
-Install those dependencies:<br>
+
+Install python and necessary dependencies:<br>
 <code>
-sudo apt-get install python3 && <br>sudo apt-get install python3-pip python3-pil python3-numpy && <br>sudo pip3 install RPi.GPIO spidev time traceback requests image imageDraw imageFont
+sudo apt-get install python3 && <br>sudo apt-get install python3-pip python3-pil python3-numpy
+</code>
+<br><br>
+
+You have to install also all python dependencies:<br>
+<code>
+sudo pip3 install RPi.GPIO spidev time traceback requests image imageDraw imageFont
 </code>
 <br>
 <br>
