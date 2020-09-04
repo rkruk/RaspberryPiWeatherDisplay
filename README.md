@@ -25,7 +25,19 @@ Some assumptions at the beginning:<br>
 - Libraries used are from standard Raspberry Pi OS repositories. Nothing has been added as an injected source code or closed blob (nothing but firmware but that is a different story and is not in the scope here).<br>
 - Python 3 packages are installed, managed, etc - via the pip3 python package installer. Pip3 is installed as you may have guessed from the standard Raspberry Pi OS repository (python3-pip package).<br>
 
-Install BCM2835 libraries:<br>
+<b>There are few things to do before anything else though.</b><br>
+You have to enable the SPI interface on the Raspberry Pi.<br>
+To do that - open terminal, use command to enter the configuration page:<br>
+<code>
+  sudo raspi-config
+</code>
+Choose Interfacing Options -> SPI -> Yes  to enable SPI interface.<br>
+After that Raspberry Pi require a reboot.<br>
+<code>
+  sudo reboot
+</code>
+<br><br>
+Next step is an installation of the BCM2835 (Broadcom chip) libraries:<br>
 - bcm2835 - follow instruction how to install from <a href="https://www.waveshare.com/wiki/2.13inch_e-Paper_HAT">Waveshare</a> website.<br>
 
 Install wiringPi libraries:<br>
