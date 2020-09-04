@@ -31,7 +31,7 @@ To do that - open terminal, use command to enter the configuration page:<br>
 
 <code>
   sudo raspi-config
-</code><br>
+</code><br><br>
 
 Choose Interfacing Options -> SPI -> Yes  to enable SPI interface.<br>
 
@@ -39,7 +39,7 @@ After that Raspberry Pi require a reboot.<br>
 
 <code>
   sudo reboot
-</code><br>
+</code><br><br>
 
 Next step is an installation of the BCM2835 (Broadcom chip) libraries:<br>
 - bcm2835 - follow instruction how to install from <a href="https://www.waveshare.com/wiki/2.13inch_e-Paper_HAT">Waveshare</a> website.
@@ -77,7 +77,7 @@ You have to install also all python dependencies:<br>
 
 <code>
 sudo pip3 install RPi.GPIO spidev time traceback requests image imageDraw imageFont
-</code><br>
+</code><br><br>
 
 Assuming you have <code>git</code> already installed - you can  now download Demo code from <a href="https://github.com/waveshare/e-Paper">Waveshare Github</a> website:<br>
 
