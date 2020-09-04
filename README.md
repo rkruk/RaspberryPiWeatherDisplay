@@ -6,8 +6,8 @@
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/rkruk/RaspberryPiWeatherDisplay/)
 
 <br><br>
-<p align="center"><b>CURRENT STATUS: BEWARE! THE CODE DOES NOT WORK YET.</b></p><br>
-<p align="center"><b>It can eat your hamster!</b></p> 
+<h1 align="center"><b>CURRENT STATUS: BEWARE! <br>THE CODE DOES NOT WORK YET.</b></h1><br>
+<h3 align="center"><b>It can eat your hamster!</b></h3> 
 <br><br>
 
 Little Raspberry PI weather display - made with the python and some forced hacks.<br> 
