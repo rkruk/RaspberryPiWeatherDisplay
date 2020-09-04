@@ -28,17 +28,23 @@ Some assumptions at the beginning:<br>
 <b>There are few things to do before anything else though.</b><br>
 You have to enable the SPI interface on the Raspberry Pi.<br>
 To do that - open terminal, use command to enter the configuration page:<br>
+
 <code>
   sudo raspi-config
 </code>
+<br>
 Choose Interfacing Options -> SPI -> Yes  to enable SPI interface.<br>
+
 After that Raspberry Pi require a reboot.<br>
+
 <code>
   sudo reboot
 </code>
-<br><br>
+
+<br>
 Next step is an installation of the BCM2835 (Broadcom chip) libraries:<br>
-- bcm2835 - follow instruction how to install from <a href="https://www.waveshare.com/wiki/2.13inch_e-Paper_HAT">Waveshare</a> website.<br>
+- bcm2835 - follow instruction how to install from <a href="https://www.waveshare.com/wiki/2.13inch_e-Paper_HAT">Waveshare</a> website.
+<br>
 
 Install wiringPi libraries:<br>
 - wiringpi - also follow instructions from <a href="https://www.waveshare.com/wiki/2.13inch_e-Paper_HAT">Waveshare</a> website.<br>
@@ -68,12 +74,14 @@ sudo apt-get install python3 git && <br>sudo apt-get install python3-pip python3
 <br><br>
 
 You have to install also all python dependencies:<br>
+
 <code>
 sudo pip3 install RPi.GPIO spidev time traceback requests image imageDraw imageFont
 </code>
 <br>
 <br>
 Assuming you have <code>git</code> already installed - you can  now download Demo code from <a href="https://github.com/waveshare/e-Paper">Waveshare Github</a> website:<br>
+
 <code>
 git clone https://github.com/waveshare/e-Paper
 </code>
