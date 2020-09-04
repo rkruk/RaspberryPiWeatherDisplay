@@ -10,8 +10,9 @@
 <p align="center"><b>It can eat your hamster!</b></p> 
 <br><br>
 
-Little Raspberry PI weather display - made with python.<br> 
+Little Raspberry PI weather display - made with the python and some forced hacks.<br> 
 The information it shows on a display: current time and forecast for the local weather.<br>
+But... you can (if you really really want) change it to something else you desire.<br> 
 Hardware is based on a Raspberry Pi 3 and an e-Paper HAT (Waveshare 2.13" B/W Color version) Display.<br>
 <br>
 Parts:<br>
@@ -19,10 +20,11 @@ Parts:<br>
 - Waveshare 2.13 e-Paper HAT v.2 (monochrome).<br><br>
 
 Some assumptions at the beginning:<br>
-- Raspberry Pi is running <a href="https://www.raspberrypi.org/downloads/raspberry-pi-os/">Raspberry Pi OS</a>.<br>
+- Raspberry Pi is running  the <a href="https://www.raspberrypi.org/downloads/raspberry-pi-os/">Raspberry Pi OS</a>.<br>
 - Everything is updated to the latest packages.<br>
-- Libraries used are from standart Raspberry Pi OS repositories. Nothing has been added as a source or blob (nothing but firmware but that is a different story and is not in the scope here).<br>
-- Python 3 packages are installed, managed, etc via the pip3 python package installer. Pip3 is installed as you may have guessed from standard Raspberry Pi OS repository (python3-pip package).<br>
+- Libraries used are from standard Raspberry Pi OS repositories. Nothing has been added as an injected source code or closed blob (nothing but firmware but that is a different story and is not in the scope here).<br>
+- Python 3 packages are installed, managed, etc - via the pip3 python package installer. Pip3 is installed as you may have guessed from the standard Raspberry Pi OS repository (python3-pip package).<br>
+
 Install BCM2835 libraries:<br>
 - bcm2835 - follow instruction how to install from <a href="https://www.waveshare.com/wiki/2.13inch_e-Paper_HAT">Waveshare</a> website.<br>
 
@@ -31,10 +33,10 @@ Install wiringPi libraries:<br>
 <br>
 List of required python3 & pip3 dependencies:<br>
 <ul>
-  <li>python; </li>
-  <li>python3-pip - it is the package installer for Python; </li>
+  <li>python 3 (obviously :D ); </li>
+  <li>python3-pip - the package installer for Python; </li>
   <li>python3-pil - Python Imaging Library is an additional library for the Python, that adds support for opening, manipulating, and saving image file formats; </li>
-  <li>python3-numpy - Numerical Python) is a library consisting of multidimensional array objects and a collection of routines for processing of array; </li>
+  <li>python3-numpy - Numpy or 'Numerical Python' is a library consisting of multidimensional array objects and a collection of routines for processing of array; </li>
   <li>RPi.GPIO - provides a class to control the GPIO on a Raspberry Pi; </li>
   <li>spidev - contains a python module for interfacing with SPI devices from user space via the spidev linux kernel driver; </li>
   <li>time - module provides various time-related functions; </li>
@@ -47,9 +49,9 @@ List of required python3 & pip3 dependencies:<br>
 <br>
 <br>
 
-Install python and necessary dependencies:<br>
+Install git, python and necessary dependencies:<br>
 <code>
-sudo apt-get install python3 && <br>sudo apt-get install python3-pip python3-pil python3-numpy
+sudo apt-get install python3 git && <br>sudo apt-get install python3-pip python3-pil python3-numpy
 </code>
 <br><br>
 
@@ -59,7 +61,7 @@ sudo pip3 install RPi.GPIO spidev time traceback requests image imageDraw imageF
 </code>
 <br>
 <br>
-Assuming you have <code>git</code> installed you can  now download Demo code from <a href="https://github.com/waveshare/e-Paper">Waveshare Github</a> website:<br>
+Assuming you have <code>git</code> already installed - you can  now download Demo code from <a href="https://github.com/waveshare/e-Paper">Waveshare Github</a> website:<br>
 <code>
 git clone https://github.com/waveshare/e-Paper
 </code>
