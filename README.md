@@ -95,7 +95,7 @@ Fonts and Glyphs used:<br>
 - <a href="https://github.com/ryanoasis/nerd-fonts">nerd fonts</a> - a weather icons glyph pack.<br>
   Nerd Fonts are available in <a href="https://github.com/ryanoasis/nerd-fonts">this github repository</a>. You have to follow the installation instructions from the Nerd Fonts README.<br>
 <br>
-Main configuration with most settings and changes is a <b>main.py</b> file.<br><br>
-The configuration files have some example directories used like the: <b><code>/home/pi</code></b> directory.<br>
+Most settings and changes is in <b><a href="https://github.com/rkruk/RaspberryPiWeatherDisplay/blob/master/main.py">main.py</a></b> file.<br><br>
+Read carefully all config files - as there are some example directories used like the: "<b><code>/home/pi</code></b>" directory (which obviously require changing to fit your settings).<br>
 Change those at your own discretion.<br>
 <br>
