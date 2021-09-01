@@ -24,6 +24,10 @@ try:
     # I'm not a programmer and I know nothing about those things at all - just throwing some randoms hoping for a better results..
     niepolomice = requests.get('https://wttr.in/Niepołomice?format=%l:+%c+%t+%w&period=60') # +%S (sunrise)
     niepolomice2 = requests.get('https://wttr.in/Niepołomice?format=%h+%w+%o&period=60') # +%d (dusk)
+    
+    # Actually I think that I could use curl to pull the date from wttr.in and push it to the screen like that:
+    # curl -s 'wttr.in/{Niepołomice?format=%l:+%c+%t+%w&period=60,Niepołomice?format=%h+%w+%o&period=60}?format=3
+    # But that must be tested - I think it wont work in the current form as the 'format=' is not supposed to be abused in that way.
 
     # From Demo - leave those for the future reference sake:
     # epd.Clear(0xFF)
