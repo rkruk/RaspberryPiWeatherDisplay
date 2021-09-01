@@ -18,12 +18,12 @@ try:
     image = Image.new('1', (epd2in13.EPD_HEIGHT, epd2in13.EPD_WIDTH), 255)  # 255: clear the frame
 
     # How to optimise that thing to not ping for weather twice at the same time.
-    # hudd1 + hudd2 = hudd something something ... format=?
+    # Weather location: niepolomice1 + niepolomice2 = 'niepolomice' something something ... format=?
     # THIS PART REQUIRE REVIEW AND REDO. See wttr github documentation --> https://github.com/chubin/wttr.in .
     # The idea is to do one get request at a time for all informations needed and then to splice them into parts.
     # I'm not a programmer and I know nothing about those things at all - just throwing some randoms hoping for a better results..
-    hudd = requests.get('https://wttr.in/Huddersfield?format=%l:+%c+%t+%w&period=60') # +%S (sunrise)
-    hudd2 = requests.get('https://wttr.in/Huddersfield?format=%h+%w+%o&period=60') # +%d (dusk)
+    niepolomice = requests.get('https://wttr.in/Niepołomice?format=%l:+%c+%t+%w&period=60') # +%S (sunrise)
+    niepolomice2 = requests.get('https://wttr.in/Niepołomice?format=%h+%w+%o&period=60') # +%d (dusk)
 
     # From Demo - leave those for the future reference sake:
     # epd.Clear(0xFF)
@@ -68,8 +68,8 @@ try:
         time_draw.text((10,60), time.strftime('%H:%M'), font = font32, fill = 0)
         
         #show wttr.in weather (right side):
-        time_draw.text((110, 60), hudd.text, font = font15, fill = 0)
-        time_draw.text((110, 80), hudd2.text, font = font15, fill = 0)
+        time_draw.text((110, 60), niepolomice.text, font = font15, fill = 0)
+        time_draw.text((110, 80), niepolomice2.text, font = font15, fill = 0)
 
         newimage = time_image.crop([10, 10, 120, 50])
         time_image.paste(newimage, (10,10))  
